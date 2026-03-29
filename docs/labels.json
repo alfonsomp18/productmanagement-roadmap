@@ -1,0 +1,17 @@
+[
+  {"name":"type:feature","color":"1D76DB","description":"New user-facing or platform capability"},
+  {"name":"type:bug","color":"D73A4A","description":"Defect impacting expected behavior"},
+  {"name":"type:tech-debt","color":"6F42C1","description":"Maintenance/refactoring work"},
+
+  {"name":"priority:high","color":"B60205","description":"Critical or high-impact work"},
+  {"name":"priority:medium","color":"FBCA04","description":"Important but not urgent"},
+  {"name":"priority:low","color":"0E8A16","description":"Useful but lower urgency"},
+
+  {"name":"status:planned","color":"C2E0C6","description":"Approved and planned"},
+  {"name":"status:in-progress","color":"0E8A16","description":"Currently being worked on"},
+  {"name":"status:done","color":"5319E7","description":"Completed and shipped"},
+
+  {"name":"area:frontend","color":"0052CC","description":"UI/web app area"},
+  {"name":"area:backend","color":"0366D6","description":"Services/data/backend systems"},
+  {"name":"area:api","color":"1B4B91","description":"Public/internal API surface"}
+]
