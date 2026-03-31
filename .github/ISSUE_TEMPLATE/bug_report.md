@@ -1,27 +1,27 @@
 ---
-name: Bug report
-about: Report a defect impacting user or system behavior
-title: "[Bug] "
-labels: ["type:bug", "priority:medium", "status:planned"]
+name: Product issue report
+about: Report a customer-facing issue in simple language
+title: "[Issue] "
+labels: ["type:bug", "status:planned"]
 assignees: []
 ---
 
-## Summary
-A clear and concise summary of the bug.
+## What happened?
+Describe the problem from a user perspective.
 
-## Steps to Reproduce
-1. Go to ...
-2. Click on ...
-3. Observe ...
+## Who is affected?
+Which users or customers are impacted?
 
-## Expected Behavior
-What should happen?
+## What should have happened?
+Describe the expected experience.
 
-## Actual Behavior
-What happened instead?
+## Business impact
+How does this affect outcomes (activation, retention, revenue, trust)?
 
-## Impact
-Who is affected and how severe is impact?
+## Priority
+- [ ] High
+- [ ] Medium
+- [ ] Low
 
-## Related Initiative (if known)
-Link an initiative if this bug blocks strategic work.
+## Linked initiative (if relevant)
+Add an initiative link if this blocks roadmap goals.

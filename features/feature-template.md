@@ -1,27 +1,27 @@
-# Feature: <feature-title>
+# Feature: <feature title>
 
-## Summary
-<short feature summary>
+## Why this matters
+Describe the customer or business value.
 
-## Linked Initiative
-- [Initiative: <name>](../initiatives/<file>.md)
+## Linked initiative
+- [Initiative name](../initiatives/<initiative-file>.md)
 
-## Problem
-<what user problem this solves>
+## What problem are we solving?
+Describe the pain point in plain language.
 
-## Proposed Solution
-<implementation direction>
+## Proposed solution
+Describe the expected experience.
 
-## Acceptance Criteria
-- [ ] <criterion 1>
-- [ ] <criterion 2>
-- [ ] <criterion 3>
+## What does success look like?
+- [ ] Success outcome 1
+- [ ] Success outcome 2
+- [ ] Success outcome 3
 
-## Labels
+## Suggested labels
 - type:feature
 - priority:medium
 - status:planned
 - area:frontend/backend/api
 
-## Milestone
+## Target milestone
 - Qx-2026

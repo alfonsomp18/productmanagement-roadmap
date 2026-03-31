@@ -1,134 +1,129 @@
-# Product Roadmap System (GitHub-Native)
+# PM Roadmap on GitHub
 
-This repository is a centralized, GitHub-based product roadmap designed for both technical and non-technical stakeholders.
+A simple, friendly product roadmap system for product managers.
 
-It creates a clear chain from strategy to execution:
-
-**Vision → Initiative → Feature → Issue → Delivery**
+This repository helps PMs plan strategy, organize quarterly priorities, and track delivery with engineering—without needing to write code.
 
 ---
 
-## Product Overview
+## What This Repository Is
 
-This system helps product teams:
+Think of this repo as a **product operations workspace** inside GitHub.
 
-- Define and communicate strategic priorities
-- Plan by quarter using simple roadmap views
-- Track execution with GitHub Issues, labels, milestones, and a project board
-- Keep roadmap context close to day-to-day delivery work
+It combines:
+- Strategy (what matters most)
+- Roadmap (what is now, next, later)
+- Feature requests (what teams will build)
+- Progress tracking (what is moving, blocked, done)
 
 ---
 
-## Repository Structure
+## Why Product Managers Should Use GitHub
+
+GitHub is not only for engineers. For PMs, it is a shared system where ideas become shipped outcomes.
+
+Using GitHub helps PMs:
+- Keep decisions and delivery in one place
+- Collaborate faster with engineering and design
+- Improve clarity in planning conversations
+- Build confidence in technical workflows over time
+
+---
+
+## Why Product Managers Should Learn GitHub
+
+Learning GitHub gives PMs a practical advantage:
+
+1. **Better collaboration with engineers**  
+   You can discuss features in the same workflow engineers use to deliver them.
+
+2. **Stronger product ownership**  
+   You can connect strategy directly to execution and outcomes.
+
+3. **Faster feedback loops**  
+   Ideas, comments, and updates happen in one visible place.
+
+4. **Hands-on prototyping mindset**  
+   You learn how products move from idea to release, which improves prioritization and scope decisions.
+
+If you can use Notion or Jira, you can use this repository.
+
+---
+
+## Start Here (5 Minutes)
+
+1. Read the PM translation guide: **`docs/pm-guide.md`**
+2. Read the product vision: **`docs/product-vision.md`**
+3. Open the roadmap: **`roadmap/now.md`**, **`roadmap/next.md`**, **`roadmap/later.md`**
+4. Create a new feature using the **Feature Request** issue template
+5. Link that feature to an initiative and milestone
+
+---
+
+## How This System Is Organized
 
 ```text
-/roadmap/
-  README.md
+roadmap/
   now.md
   next.md
   later.md
-  backlog.md
 
-/initiatives/
+initiatives/
   initiative-template.md
-  onboarding-activation-improvement.md
-  api-partner-expansion.md
+  customer-activation-excellence.md
+  partner-self-serve-growth.md
 
-/features/
+features/
   feature-template.md
   example-features.md
 
-/docs/
+docs/
+  pm-guide.md
+  examples.md
+  how-it-works.md
   product-vision.md
   principles.md
   labels.json
   github-setup.md
 
-.github/
-  ISSUE_TEMPLATE/
-    feature_request.md
-    bug_report.md
+.github/ISSUE_TEMPLATE/
+  feature_request.md
+  bug_report.md
 ```
 
 ---
 
-## How the Roadmap Works
+## How Work Flows
 
-### 1) Strategic Themes (`/docs/product-vision.md`)
-High-level, long-horizon direction.
+**Vision → Initiative → Feature Issue → Discussion → Pull Request → Merge → Live Release**
 
-Example: "Improve user onboarding".
+- Vision explains long-term direction
+- Initiatives define business outcomes
+- Feature issues define work to deliver those outcomes
+- Pull requests show implementation and approval
 
-### 2) Initiatives (`/initiatives/*.md`)
-Mid-level outcomes that explain what we are trying to improve and how success is measured.
-
-### 3) Features (GitHub Issues)
-Execution-level work items linked to initiatives and milestones.
+See **`docs/how-it-works.md`** for a simple visual walkthrough.
 
 ---
 
-## Planning Cadence (Now / Next / Later)
+## Contribution Guide (PM-Friendly)
 
-- `roadmap/now.md` → In progress now
-- `roadmap/next.md` → Planned next quarter
-- `roadmap/later.md` → Longer-term ideas
-- `roadmap/backlog.md` → Unprioritized options
+When proposing new work:
 
-Each roadmap item includes:
-
-- Status emoji (`🟢` in progress, `🟡` planned, `⚪` idea)
-- Link to an initiative file and/or issue
-- Owner and milestone where relevant
+1. Create a **Feature Request** issue
+2. Write the customer problem in plain language
+3. Choose priority (High / Medium / Low)
+4. Link one initiative
+5. Assign a milestone (Q2-2026, Q3-2026, Q4-2026)
+6. Add it to the project board
 
 ---
 
-## How to Contribute
+## Example Content Included
 
-1. Read the vision in `docs/product-vision.md`.
-2. Check roadmap files under `roadmap/`.
-3. If work exists, comment on the linked issue.
-4. If work is new, create a feature request issue from the template.
-5. Link the issue to an initiative and milestone.
-6. Add/update the issue in the GitHub project board.
+This repo includes:
+- 2 business-oriented initiatives
+- 4 sample feature issues
+- Fully linked now/next/later roadmap entries
 
----
-
-## How to Create Features
-
-Use `.github/ISSUE_TEMPLATE/feature_request.md` and include:
-
-- Problem statement
-- Proposed solution
-- Acceptance criteria
-- Linked initiative
-
-Then apply labels:
-
-- One `type:*`
-- One `priority:*`
-- One `status:*`
-- One `area:*`
-
-Finally set a milestone (`Q2-2026`, `Q3-2026`, `Q4-2026`) and add to the project board.
-
----
-
-## Linking Work to the Roadmap
-
-Use this linking model:
-
-1. Vision theme referenced in initiative
-2. Initiative linked in feature issue body
-3. Issue referenced in `roadmap/now.md`, `next.md`, `later.md`, or `backlog.md`
-
-This provides full traceability from strategy to execution.
-
----
-
-## GitHub Setup (Labels, Milestones, Project Board)
-
-Setup instructions and optional `gh` CLI commands are in:
-
-- `docs/labels.json`
-- `docs/github-setup.md`
-
+Use these as a starting point, then adapt to your product.

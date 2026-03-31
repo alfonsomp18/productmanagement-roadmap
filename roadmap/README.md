@@ -1,16 +1,12 @@
-# Roadmap Views
+# Roadmap Pages
 
-This folder contains product planning views by horizon:
+Use these three files for planning conversations:
 
-- `now.md` — active work in progress
-- `next.md` — planned for the next quarter
-- `later.md` — longer-term opportunities
-- `backlog.md` — unprioritized candidates
+- `now.md`: what is currently in progress
+- `next.md`: what we plan to start next
+- `later.md`: ideas we may prioritize later
 
 Status legend:
-
 - 🟢 In progress
 - 🟡 Planned
 - ⚪ Idea
-
-Update these files during planning and monthly roadmap reviews.

@@ -1,21 +1,21 @@
-# Initiative: <initiative-name>
+# Initiative: <business outcome name>
 
 ## Objective
-<what outcome we want>
+What business or customer outcome are we trying to achieve?
 
 ## Problem Statement
-<what user or business problem exists>
+What is not working today?
 
 ## Success Metrics
-- <metric 1 + target>
-- <metric 2 + target>
+- Metric 1 + target
+- Metric 2 + target
 
 ## Related Features (GitHub Issues)
-- #<issue-number> <feature name>
-- #<issue-number> <feature name>
+- #<issue-number> <feature title>
+- #<issue-number> <feature title>
 
 ## Strategic Theme Alignment
-- <theme name from docs/product-vision.md>
+Reference a theme from `docs/product-vision.md`.
 
 ## Notes
 - Owner:

@@ -1,10 +1,9 @@
-# Next (Next Quarter)
+# Next (Planned)
 
-- 🟡 **[Initiative: Expand API partner capabilities](../initiatives/api-partner-expansion.md)**  
-  - Linked feature: [#104 Webhook delivery reliability dashboard](../features/example-features.md#feature-104)  
-  - Owner: Platform Team  
-  - Milestone: Q3-2026
+## 🟡 Better onboarding guidance outside the app
+Use timed welcome messages to help new users complete key actions.
+Issue: [#102 Welcome email journey with contextual nudges](https://github.com/OWNER/REPO/issues/102)
 
-- 🟡 **Feature candidate: Guided setup analytics dashboard**  
-  - Linked initiative: [Improve onboarding activation](../initiatives/onboarding-activation-improvement.md)  
-  - Milestone target: Q3-2026
+## 🟡 API reliability visibility for partners
+Provide a simple dashboard so partners can understand webhook health and delivery trends.
+Issue: [#104 Webhook delivery reliability dashboard](https://github.com/OWNER/REPO/issues/104)

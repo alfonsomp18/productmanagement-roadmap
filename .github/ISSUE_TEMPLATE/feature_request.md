@@ -1,30 +1,34 @@
 ---
 name: Feature request
-about: Propose a new feature linked to the roadmap
+about: Propose a product improvement in PM language
 title: "[Feature] "
-labels: ["type:feature", "priority:medium", "status:planned"]
+labels: ["type:feature", "status:planned"]
 assignees: []
 ---
 
-## Title
+## What problem are we solving?
+Describe the customer or business problem in simple terms.
 
-## Description
-Describe the feature and expected outcome.
+## Who is this for?
+Which user segment, customer type, or internal team benefits most?
 
-## Problem
-What user or business problem does this solve?
+## What is the proposed solution?
+Describe the expected experience in plain language.
 
-## Proposed Solution
-Describe the proposed approach at a high level.
+## What does success look like?
+List 2-3 measurable outcomes.
+- Outcome 1:
+- Outcome 2:
+- Outcome 3 (optional):
 
-## Acceptance Criteria
-- [ ] Criterion 1
-- [ ] Criterion 2
-- [ ] Criterion 3
+## Priority
+- [ ] High
+- [ ] Medium
+- [ ] Low
 
-## Linked Initiative
-Link to an initiative file (example):
-`/initiatives/onboarding-activation-improvement.md`
+## Linked initiative
+Add the initiative file link (example):
+`/initiatives/customer-activation-excellence.md`
 
-## Additional Context
-Dependencies, rollout notes, or risks.
+## Notes (optional)
+Dependencies, risks, or rollout timing.

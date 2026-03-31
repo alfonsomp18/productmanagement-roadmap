@@ -1,7 +1,7 @@
 # Product Vision and Strategic Themes
 
 ## Vision
-Build a product experience that helps customers realize value faster and scale confidently through reliable platform capabilities.
+Help customers reach value quickly and scale confidently through a reliable platform experience.
 
 ## Strategic Themes
 
@@ -11,12 +11,12 @@ Build a product experience that helps customers realize value faster and scale c
 
 2. **Expand API capabilities**
    - Improve partner self-service workflows
-   - Increase API reliability and observability
+   - Increase API reliability and visibility
 
 ## Theme-to-Initiative Mapping
 
 - Improve user onboarding
-  - Initiative: Improve onboarding activation
+  - Initiative: [Customer Activation Excellence](../initiatives/customer-activation-excellence.md)
 
 - Expand API capabilities
-  - Initiative: Expand API partner capabilities
+  - Initiative: [Partner Self-Serve Growth](../initiatives/partner-self-serve-growth.md)
